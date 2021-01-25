@@ -1,0 +1,35 @@
+<div class="content" *ngIf="focusedEntry">
+  <div [routerLink]="['/']" class="back">
+    <p><span class="material-icons">keyboard_arrow_left</span>Back</p>
+  </div>
+
+  <h1>{{focusedEntry.Name}}</h1>
+
+  <h2>Description</h2>
+  <p>{{focusedEntry.Description}}</p>
+  <a href="{{focusedEntry.Link}}" target="_blank">> Learn more on Mitre Attack</a>
+
+  <h2>Activity areas</h2>
+  <div class="tags">
+    <div class="tag" *ngFor="let tag of focusedEntry.Tags">
+      <p>{{tag}}</p>
+    </div>
+  </div>
+
+  <h2>Latest news on HackerNews</h2>
+  <div class="tweets" *ngIf="news && news.length > 0">
+    <div class="tweet" *ngFor="let publication of news">
+      <a href="{{publication.url}}" target="_blank">
+        <span class="material-icons">article</span>
+      </a>
+      <h4>{{publication.title}}</h4>
+      <div class="flex">
+        <p><i>Written by {{publication.author}}</i> on {{publication.created_at | date}}</p>
+      </div>
+    </div>
+  </div>
+  <p *ngIf="news && news.length == 0">No news about this threat for the last 7 days.</p>
+  <p *ngIf="!news">Can't load Hacker News feed.</p>
+
+  <p class="how"><a [routerLink]="['/how']" >How do we know</a></p>
+</div>

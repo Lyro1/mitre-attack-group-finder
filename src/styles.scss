@@ -1,1 +1,146 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.theme {
+  margin: 0;
+  padding-top: 1px;
+  margin-top: -1px;
+  min-height: 100vh;
+  background-color: #222;
+  color: white;
+  transition: 1s;
+
+  .switch-theme {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  #map {
+    position: fixed;
+    height: 80vh;
+    top: 10vh;
+    left: -30vh;
+    opacity: 0.05;
+    z-index: 1;
+    transform: rotate(20deg);
+    transition: 1s;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline dashed;
+  }
+
+}
+
+.light {
+  background-color: #eee;
+  color: black !important;
+  transition: 1s;
+
+  p, h1, h2, h3, h4, label, input, a {
+    color: black !important;
+  }
+
+  #map {
+    opacity: 0.5;
+    transition: 1s;
+  }
+
+  .content {
+
+    .back {
+      background-color: black !important;
+      transition: 1s;
+
+      .material-icons {
+        color: white !important;
+        transition: 1s;
+      }
+
+      p {
+        color: white !important;
+        transition: 1s;
+      }
+    }
+
+    .tags {
+      .tag {
+        background-color: black !important;
+        transition: 1s;
+
+        p {
+          color: white !important;
+          transition: 1s;
+        }
+      }
+    }
+
+    form {
+      input[type=text] {
+        color: black !important;
+        border: 1px solid black !important;
+        transition: 1s;
+      }
+
+      .tags {
+        border: 1px solid black !important;
+        border-top: none !important;
+
+        .tag {
+          background-color: transparent !important;
+
+          p {
+            color: black !important;
+          }
+        }
+      }
+    }
+
+    .results {
+      .result {
+        border: 1px solid black !important;
+        transition: 1s;
+
+        .header {
+          border-bottom: 1px dashed black !important;
+          transition: 1s;
+        }
+
+        .tags {
+          .tag {
+            background-color: black !important;
+            transition: 1s;
+
+            p {
+              color: white !important;
+              transition: 1s;
+            }
+          }
+        }
+      }
+    }
+
+    .tweets {
+      .tweet {
+        border: 1px solid black !important;
+        transition: 1s;
+      }
+    }
+  }
+}

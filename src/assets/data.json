@@ -1,0 +1,719 @@
+﻿{
+    "DATA": [
+        {
+            "Name": "admin@338",
+            "Description": "admin@338 is a China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as PoisonIvy, as well as some non-public backdoors.",
+            "Tags": [
+                "Finance",
+                "Trading"
+            ],
+            "Link": "https://attack.mitre.org/groups/G0018"
+        },
+        {
+            "Name": "APT-C-36",
+            "Associated Groups": "Blind Eagle",
+            "Description": "APT-C-36 is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing.",
+            "Tags": [
+              "Finance",
+              "Energy",
+              "Manufacturing"
+            ],
+            "Link": "https://attack.mitre.org/groups/G0099"
+        },
+        {
+            "Name": "APT1",
+            "Associated Groups": "Comment Crew, Comment Group, Comment Panda",
+            "Description": "APT1 is a Chinese threat group that has been attributed to the 2nd Bureau of the People’s Liberation Army (PLA) General Staff Department’s (GSD) 3rd Department, commonly known by its Military Unit Cover Designator (MUCD) as Unit 61398.",
+            "Tags": ["Military"],
+            "Link": "https://attack.mitre.org/groups/G0006"
+        },
+        {
+            "Name": "APT12",
+            "Associated Groups": "IXESHE, DynCalc, Numbered Panda, DNSCALC",
+            "Description": "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.",
+            "Tags": [
+			"Media",
+			"IT",
+			"Government"
+			],
+            "Link": "https://attack.mitre.org/groups/G0005"
+        },
+        {
+            "Name": "APT16",
+            "Description": "APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0023"
+        },
+        {
+            "Name": "APT17",
+            "Associated Groups": "Deputy Dog",
+            "Description": "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and Non-government organizations.",
+            "Tags": ["Government", "Military", "Legal", "IT", "Energy", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0025"
+        },
+        {
+            "Name": "APT18",
+            "Associated Groups": "TG-0416, Dynamite Panda, Threat Group-0416",
+            "Description": "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical.",
+            "Tags": ["IT", "Manufacturing", "Government", "Medical"],
+            "Link": "https://attack.mitre.org/groups/G0026"
+        },
+        {
+            "Name": "APT19",
+            "Associated Groups": "Codoso, C0d0so0, Codoso Team, Sunshop Group",
+            "Description": "APT19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, Telecommunication, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. Some analysts track APT19 and Deep Panda as the same group, but it is unclear from open source information if the groups are the same.",
+            "Tags": ["Military", "Finance", "Energy", "Pharmaceutical", "Telecommunication", "IT", "Education", "Manufacturing", "Legal"],
+            "Link": "https://attack.mitre.org/groups/G0073"
+        },
+        {
+            "Name": "APT28",
+            "Associated Groups": "SNAKEMACKEREL, Swallowtail, Group 74, Sednit, Sofacy, Pawn Storm, Fancy Bear, STRONTIUM, Tsar Team, Threat Group-4127, TG-4127",
+            "Description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. This group has been active since at least 2004.",
+            "Tags": ["Military", "Sport", "Nuclear", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0007"
+        },
+        {
+            "Name": "APT29",
+            "Associated Groups": "YTTRIUM, The Dukes, Cozy Bear, CozyDuke",
+            "Description": "APT29 is threat group that has been attributed to the Russian government and has operated since at least 2008. This group reportedly compromised the Democratic National Committee starting in the summer of 2015.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0016"
+        },
+        {
+            "Name": "APT3",
+            "Associated Groups": "Gothic Panda, Pirpi, UPS Team, Buckeye, Threat Group-0110, TG-0110",
+            "Description": "APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security. This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap. As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong. MITRE has also developed an APT3 Adversary Emulation Plan.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0022"
+        },
+        {
+            "Name": "APT30",
+            "Description": "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0013"
+        },
+        {
+            "Name": "APT32",
+            "Associated Groups": "SeaLotus, OceanLotus, APT-C-00",
+            "Description": "APT32 is a threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as with foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philippines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims. The group is believed to be Vietnam-based.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0050"
+        },
+        {
+            "Name": "APT33",
+            "Associated Groups": "HOLMIUM, Elfin",
+            "Description": "APT33 is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.",
+            "Tags": ["Aerospace", "Energy"],
+            "Link": "https://attack.mitre.org/groups/G0064"
+        },
+        {
+            "Name": "APT37",
+            "Associated Groups": "ScarCruft, Reaper, Group123, TEMP.Reaper",
+            "Description": "APT37 is a suspected North Korean cyber espionage group that has been active since at least 2012. The group has targeted victims primarily in South Korea, but also in Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, and other parts of the Middle East. APT37 has also been linked to following campaigns between 2016-2018: Operation Daybreak, Operation Erebus, Golden Time, Evil New Year, Are you Happy?, FreeMilk, Northern Korean Human Rights, and Evil New Year 2018. North Korean group definitions are known to have significant overlap, and the name Lazarus Group is known to encompass a broad range of activity. Some organizations use the name Lazarus Group to refer to any activity attributed to North Korea. Some organizations track North Korean clusters or groups such as Bluenoroff, APT37, and APT38 separately, while other organizations may track some activity associated with those group names by the name Lazarus Group.\"",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0067"
+        },
+        {
+            "Name": "APT38",
+            "Description": "APT38 is a financially-motivated threat group that is backed by the North Korean regime. The group mainly targets banks and financial institutions and has targeted more than 16 organizations in at least 13 countries since at least 2014. North Korean group definitions are known to have significant overlap, and the name Lazarus Group is known to encompass a broad range of activity. Some organizations use the name Lazarus Group to refer to any activity attributed to North Korea. Some organizations track North Korean clusters or groups such as Bluenoroff, APT37, and APT38 separately, while other organizations may track some activity associated with those group names by the name Lazarus Group.\r\n",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0082"
+        },
+        {
+            "Name": "APT39",
+            "Associated Groups": "Chafer",
+            "Description": "APT39 is an Iranian cyber espionage group that has been active since at least 2014. They have targeted the telecommunication and travel industries to collect personal information that aligns with Iran's national priorities.",
+            "Tags": ["Telecommunication", "Travel"],
+            "Link": "https://attack.mitre.org/groups/G0087"
+        },
+        {
+            "Name": "APT41",
+            "Description": "APT41 is a group that carries out Chinese state-sponsored espionage activity in addition to financially motivated activity. APT41 has been active since as early as 2012. The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.",
+            "Tags": ["Medical", "Telecommunication", "IT", "Gaming"],
+            "Link": "https://attack.mitre.org/groups/G0096"
+        },
+        {
+            "Name": "Axiom",
+            "Associated Groups": "Group 72",
+            "Description": "Axiom is a cyber espionage group suspected to be associated with the Chinese government. It is responsible for the Operation SMN campaign. Though both this group and Winnti Group use the malware Winnti for Windows, the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0001"
+        },
+        {
+            "Name": "BlackOasis",
+            "Description": "BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. A group known by Microsoft as NEODYMIUM is reportedly associated closely with BlackOasis operations, but evidence that the group names are aliases has not been identified.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0063"
+        },
+        {
+            "Name": "BlackTech",
+            "Description": "BlackTech is a cyber espionage group operating against targets in East Asia, particularly Taiwan, and occasionally, Japan and Hong Kong.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0098"
+        },
+        {
+            "Name": "Blue Mockingbird",
+            "Description": "Blue Mockingbird is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0108"
+        },
+        {
+            "Name": "Bouncing Golf",
+            "Description": "Bouncing Golf is a cyberespionage campaign targeting Middle Eastern countries.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0097"
+        },
+        {
+            "Name": "BRONZE BUTLER",
+            "Associated Groups": "REDBALDKNIGHT, Tick",
+            "Description": "BRONZE BUTLER is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry.",
+            "Tags": ["Government", "Biotechnology", "IT", "Chemical"],
+            "Link": "https://attack.mitre.org/groups/G0060"
+        },
+        {
+            "Name": "Carbanak",
+            "Associated Groups": "Anunak, Carbon Spider",
+            "Description": "Carbanak is a threat group that mainly targets banks. It also refers to malware of the same name (Carbanak). It is sometimes referred to as FIN7, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0008"
+        },
+        {
+            "Name": "Charming Kitten",
+            "Description": "Charming Kitten is an Iranian cyber espionage group that has been active since approximately 2014. They appear to focus on targeting individuals of interest to Iran who work in academic research, human rights, and media, with most victims having been located in Iran, the US, Israel, and the UK. [Charming Kitten often tries to access private email and Facebook accounts, and sometimes establishes a foothold on victim computers as a secondary objective. The group's TTPs overlap extensively with another group, Magic Hound, resulting in reporting that may not distinguish between the two groups' activities.",
+            "Tags": ["Education", "Media"],
+            "Link": "https://attack.mitre.org/groups/G0058"
+        },
+        {
+            "Name": "Chimera",
+            "Description": "Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle Ea",
+            "Tags": ["IT"],
+            "Link": "https://attack.mitre.org/groups/G0114"
+        },
+        {
+            "Name": "Cleaver",
+            "Associated Groups": "Threat Group 2889, TG-2889",
+            "Description": "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889).",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0003"
+        },
+        {
+            "Name": "Cobalt Group",
+            "Associated Groups": "Cobalt Gang, Cobalt Spider",
+            "Description": "Cobalt Group is a financially motivated threat group that has primarily targeted financial institutions. The group has conducted intrusions to steal money via targeting ATM systems, card processing, payment systems and SWIFT systems. Cobalt Group has mainly targeted banks in Eastern Europe, Central Asia, and Southeast Asia. One of the alleged leaders was arrested in Spain in early 2018, but the group still appears to be active. The group has been known to target organizations in order to use their access to then compromise additional victims. Reporting indicates there may be Link between Cobalt Group and both the malware Carbanak and the group Carbanak.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0080"
+        },
+        {
+            "Name": "CopyKittens",
+            "Description": "CopyKittens is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0052"
+        },
+        {
+            "Name": "Dark Caracal",
+            "Description": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0070"
+        },
+        {
+            "Name": "Darkhotel",
+            "Description": "Darkhotel is a threat group that has been active since at least 2004. The group has conducted activity on hotel and business center Wi‑Fi and physical connections as well as peer-to-peer and file sharing networks. The actors have also conducted spearphishing.",
+            "Tags": ["Travel"],
+            "Link": "https://attack.mitre.org/groups/G0012"
+        },
+        {
+            "Name": "DarkHydrus",
+            "Description": "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks.",
+            "Tags": ["Government", "Education"],
+            "Link": "https://attack.mitre.org/groups/G0079"
+        },
+        {
+            "Name": "DarkVishnya",
+            "Description": "DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0105"
+        },
+        {
+            "Name": "Deep Panda",
+            "Associated Groups": "Shell Crew, WebMasters, KungFu Kittens, PinkPanther, Black Vine",
+            "Description": "Deep Panda is a suspected Chinese threat group known to target many industries, including government, defense, financial, and Telecommunication. The intrusion into healthcare company Anthem has been attributed to Deep Panda. This group is also known as Shell Crew, WebMasters, KungFu Kittens, and PinkPanther. Deep Panda also appears to be known as Black Vine based on the attribution of both group names to the Anthem intrusion. Some analysts track Deep Panda and APT19 as the same group, but it is unclear from open source information if the groups are the same.",
+            "Tags": ["Government", "Military", "Finance", "Telecommunication"],
+            "Link": "https://attack.mitre.org/groups/G0009"
+        },
+        {
+            "Name": "Dragonfly",
+            "Associated Groups": "TG-4192, Crouching Yeti, IRON LIBERTY, Energetic Bear",
+            "Description": "Dragonfly Dragonfly is a cyber espionage group that has been active since at least 2011. They initially targeted defense and aviation companies but shifted to focus on the energy sector in early 2013. They have also targeted companies related to industrial control systems.A similar group emerged in 2015 and was identified by Symantec as Dragonfly 2.0. There is debate over the extent of the overlap between Dragonfly and Dragonfly 2.0, but there is sufficient evidence to lead to these being tracked as two separate groups.",
+            "Tags": ["Military", "Aerospace", "Energy"],
+            "Link": "https://attack.mitre.org/groups/G0035"
+        },
+        {
+            "Name": "Dragonfly 2.0",
+            "Associated Groups": "IRON LIBERTY, DYMALLOY, Berserk Bear",
+            "Description": "Dragonfly 2.0 is a suspected Russian group that has targeted government entities and multiple U.S. critical infrastructure sectors since at least March 2016. There is debate over the extent of overlap between Dragonfly 2.0 and Dragonfly, but there is sufficient evidence to lead to these being tracked as two separate groups.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0074"
+        },
+        {
+            "Name": "DragonOK",
+            "Description": "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0017"
+        },
+        {
+            "Name": "Dust Storm",
+            "Description": "Dust Storm is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries.",
+            "Tags": ["Government", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0031"
+        },
+        {
+            "Name": "Elderwood",
+            "Associated Groups": "Elderwood Gang, Beijing Group, Sneaky Panda",
+            "Description": "Elderwood is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora. The group has targeted defense organizations, supply chain Manufacturingrs, human rights and nongovernmental organizations (NGOs), and IT service providers.",
+            "Tags": ["Military", "Manufacturing", "Non-government", "IT"],
+            "Link": "https://attack.mitre.org/groups/G0066"
+        },
+        {
+            "Name": "Equation",
+            "Description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0020"
+        },
+        {
+            "Name": "FIN10",
+            "Description": "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations.",
+            "Tags": ["Non-government", "Finance"],
+            "Link": "https://attack.mitre.org/groups/G0051"
+        },
+        {
+            "Name": "FIN4",
+            "Description": "FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at least 2013. FIN4 is unique in that they do not infect victims with typical persistent malware, but rather they focus on capturing credentials authorized to access email and other non-public correspondence.",
+            "Tags": ["Medical", "Pharmaceutical"],
+            "Link": "https://attack.mitre.org/groups/G0085"
+        },
+        {
+            "Name": "FIN5",
+            "Description": "FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely speak Russian.",
+            "Tags": ["Travel", "Gaming"],
+            "Link": "https://attack.mitre.org/groups/G0053"
+        },
+        {
+            "Name": "FIN6",
+            "Associated Groups": "Magecart Group 6, SKELETON SPIDER, ITG08",
+            "Description": "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.",
+            "Tags": ["Travel", "Retail"],
+            "Link": "https://attack.mitre.org/groups/G0037"
+        },
+        {
+            "Name": "FIN7",
+            "Description": "FIN7 is a financially-motivated threat group that has primarily targeted the U.S. retail, restaurant, and hospitality sectors since mid-2015. They often use point-of-sale malware. A portion of FIN7 was run out of a front company called Combi Security. FIN7 is sometimes referred to as Carbanak Group, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately.",
+            "Tags": ["Retail", "Travel"],
+            "Link": "https://attack.mitre.org/groups/G0046"
+        },
+        {
+            "Name": "FIN8",
+            "Description": "FIN8 is a financially motivated threat group known to launch tailored spearphishing campaigns targeting the retail, restaurant, and hospitality industries.",
+            "Tags": ["Retail", "Travel"],
+            "Link": "https://attack.mitre.org/groups/G0061"
+        },
+        {
+            "Name": "Frankenstein",
+            "Description": "Frankenstein is a campaign carried out between January and April 2019 by unknown threat actors. The campaign name comes from the actors' ability to piece together several unrelated components.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0101"
+        },
+        {
+            "Name": "Gallmaker",
+            "Description": "Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors.",
+            "Tags": ["Military", "Government"],
+            "Link": "https://attack.mitre.org/groups/G0084"
+        },
+        {
+            "Name": "Gamaredon Group",
+            "Description": "Gamaredon Group is a threat group that has been active since at least 2013 and has targeted individuals likely involved in the Ukrainian government. The name Gamaredon Group comes from a misspelling of the word \"Armageddon\", which was detected in the adversary's early campaigns.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0047"
+        },
+        {
+            "Name": "GCMAN",
+            "Description": "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0036"
+        },
+        {
+            "Name": "GOLD SOUTHFIELD",
+            "Description": "GOLD SOUTHFIELD is a financially motivated threat group active since at least 2019 that operates the REvil Ransomware-as-a Service (RaaS). GOLD SOUTHFIELD provides backend infrastructure for affiliates recruited on underground forums to perpetrate high value deployments.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0115"
+        },
+        {
+            "Name": "Gorgon Group",
+            "Description": "Gorgon Group is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the United Kingdom, Spain, Russia, and the United States.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0078"
+        },
+        {
+            "Name": "Group5",
+            "Description": "Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0043"
+        },
+        {
+            "Name": "Honeybee",
+            "Description": "Honeybee is a campaign led by an unknown actor that targets humanitarian aid organizations and has been active in Vietnam, Singapore, Argentina, Japan, Indonesia, and Canada. It has been an active operation since August of 2017 and as recently as February 2018.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0072"
+        },
+        {
+            "Name": "Inception",
+            "Associated Groups": "Inception Framework, Cloud Atlas",
+            "Description": "Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.",
+            "Tags": ["Industry", "Government"],
+            "Link": "https://attack.mitre.org/groups/G0100"
+        },
+        {
+            "Name": "Ke3chang",
+            "Associated Groups": "APT15, Mirage, Vixen Panda, GREF, Playful Dragon, RoyalAPT",
+            "Description": "Ke3chang is a threat group attributed to actors operating out of China. Ke3chang has targeted several industries, including oil, government, military, and more.",
+            "Tags": ["Industry", "Energy", "Government", "Military"],
+            "Link": "https://attack.mitre.org/groups/G0004"
+        },
+        {
+            "Name": "Kimsuky",
+            "Associated Groups": "Velvet Chollima",
+            "Description": "Kimsuky is a North Korean-based threat group that has been active since at least September 2013. The group focuses on targeting Korean think tank as well as DPRK/nuclear-related targets. The group was attributed as the actor behind the Korea Hydro & Nuclear Power Co. compromise.",
+            "Tags":  ["Nuclear"],
+            "Link": "https://attack.mitre.org/groups/G0094"
+        },
+        {
+            "Name": "Lazarus Group",
+            "Associated Groups": "HIDDEN COBRA, Guardians of Peace, ZINC, NICKEL ACADEMY",
+            "Description": "Lazarus Group is a threat group that has been attributed to the North Korean government. The group has been active since at least 2009 and was reportedly responsible for the November 2014 destructive wiper attack against Sony Pictures Entertainment as part of a campaign named Operation Blockbuster by Novetta. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain. In late 2017, Lazarus Group used KillDisk, a disk-wiping tool, in an attack against an online casino based in Central America. North Korean group definitions are known to have significant overlap, and the name Lazarus Group is known to encompass a broad range of activity. Some organizations use the name Lazarus Group to refer to any activity attributed to North Korea. Some organizations track North Korean clusters or groups such as Bluenoroff, APT37, and APT38 separately, while other organizations may track some activity associated with those group names by the name Lazarus Group.",
+            "Tags": ["Military"],
+            "Link": "https://attack.mitre.org/groups/G0032"
+        },
+        {
+            "Name": "Leafminer",
+            "Associated Groups": "Raspite",
+            "Description": "Leafminer is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0077"
+        },
+        {
+            "Name": "Leviathan",
+            "Associated Groups": "TEMP.Jumper, APT40, TEMP.Periscope",
+            "Description": "Leviathan is a cyber espionage group that has been active since at least 2013. The group generally targets defense and government organizations, but has also targeted a range of industries including engineering firms, shipping and transportation, manufacturing, defense, government offices, and research universities in the United States, Western Europe, and along the South China Sea.",
+            "Tags": ["Military", "Government", "Travel", "Manufacturing", "Education"],
+            "Link": "https://attack.mitre.org/groups/G0065"
+        },
+        {
+            "Name": "Lotus Blossom",
+            "Associated Groups": "DRAGONFISH, Spring Dragon",
+            "Description": "Lotus Blossom is a threat group that has targeted government and military organizations in Southeast Asia.",
+            "Tags": ["Government", "Military"],
+            "Link": "https://attack.mitre.org/groups/G0030"
+        },
+        {
+            "Name": "Machete",
+            "Associated Groups": "El Machete",
+            "Description": "Machete is a group that has been active since at least 2010, targeting high-profile government entities in Latin American countries.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0095"
+        },
+        {
+            "Name": "Magic Hound",
+            "Associated Groups": "Cobalt Gypsy, Operation Woolen-Goldfish, Ajax Security Team, Operation Saffron Rose, Rocket Kitten, Phosphorus, Newscaster, APT35",
+            "Description": "Magic Hound is an Iranian-sponsored threat group that conducts long term, resource-intensive operations to collect intelligence, dating back as early as 2014. The group typically targets U.S. and the Middle Eastern military, as well as other organizations with government personnel, via complex social engineering campaigns.",
+            "Tags": ["Government", "Military"],
+            "Link": "https://attack.mitre.org/groups/G0059"
+        },
+        {
+            "Name": "menuPass",
+            "Associated Groups": "Stone Panda, APT10, Red Apollo, CVNX, HOGFISH",
+            "Description": "menuPass is a threat group that appears to originate from China and has been active since approximately 2009. The group has targeted healthcare, defense, aerospace, and government sectors, and has targeted Japanese victims since at least 2014. In 2016 and 2017, the group targeted managed IT service providers, manufacturing and mining companies, and a university.",
+            "Tags": ["Medical", "Military", "Aerospace", "Government", "IT", "Manufacturing", "Energy", "Education"],
+            "Link": "https://attack.mitre.org/groups/G0045"
+        },
+        {
+            "Name": "Moafee",
+            "Description": "Moafee is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group DragonOK.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0002"
+        },
+        {
+            "Name": "Mofang",
+            "Description": "Mofang is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as several other countries and sectors including military, automobile, and weapons industries.",
+            "Tags": ["Government", "Military", "Manufacturing"],
+            "Link": "https://attack.mitre.org/groups/G0103"
+        },
+        {
+            "Name": "Molerats",
+            "Associated Groups": "Operation Molerats, Gaza Cybergang",
+            "Description": "Molerats is a politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0021"
+        },
+        {
+            "Name": "MuddyWater",
+            "Associated Groups": "Seedworm, TEMP.Zagros",
+            "Description": "MuddyWater is an Iranian threat group that has primarily targeted Middle Eastern nations, and has also targeted European and North American nations. The group's victims are mainly in the Telecommunication, government (IT services), and oil sectors. Activity from this group was previously linked to FIN7, but the group is believed to be a distinct group possibly motivated by espionage.",
+            "Tags": ["Telecommunication", "Government", "Energy"],
+            "Link": "https://attack.mitre.org/groups/G0069"
+        },
+        {
+            "Name": "Naikon",
+            "Description": "Naikon is a threat group that has focused on targets around the South China Sea. The group has been attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau(Military Unit Cover Designator 78020). While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0019"
+        },
+        {
+            "Name": "NEODYMIUM",
+            "Description": "NEODYMIUM is an activity group that conducted a campaign in May 2016 and has heavily targeted Turkish victims. The group has demonstrated similarity to another activity group called PROMETHIUM due to overlapping victim and campaign characteristics. NEODYMIUM is reportedly associated closely with BlackOasis operations, but evidence that the group names are aliases has not been identified.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0055"
+        },
+        {
+            "Name": "Night Dragon",
+            "Description": "Night Dragon is a campaign name for activity involving a threat group that has conducted activity originating primarily in China.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0014"
+        },
+        {
+            "Name": "OilRig",
+            "Associated Groups": "IRN2, HELIX KITTEN, APT34",
+            "Description": "OilRig is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of industries, including financial, government, energy, chemical, and Telecommunication, and has largely focused its operations within the Middle East. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. FireEye assesses that the group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests. This group was previously tracked under two distinct groups, APT34 and OilRig, but was combined due to additional reporting giving higher confidence about the overlap of the activity.",
+            "Tags": ["Finance", "Government", "Energy", "Chemical", "Telecommunication"],
+            "Link": "https://attack.mitre.org/groups/G0049"
+        },
+        {
+            "Name": "Orangeworm",
+            "Description": "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.",
+            "Tags": ["Medical"],
+            "Link": "https://attack.mitre.org/groups/G0071"
+        },
+        {
+            "Name": "Patchwork",
+            "Associated Groups": "Hangover Group, Dropping Elephant, Chinastrats, MONSOON, Operation Hangover",
+            "Description": "Patchwork is a cyberespionage group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity. Patchwork has been seen targeting industries related to diplomatic and government agencies. Much of the code used by this group was copied and pasted from online forums. Patchwork was also seen operating spearphishing campaigns targeting U.S. think tank groups in March and April of 2018.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0040"
+        },
+        {
+            "Name": "PittyTiger",
+            "Description": "PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0011"
+        },
+        {
+            "Name": "PLATINUM",
+            "Description": "PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0068"
+        },
+        {
+            "Name": "Poseidon Group",
+            "Description": "Poseidon Group is a Portuguese-speaking threat group that has been active since at least 2005. The group has a history of using information exfiltrated from victims to blackmail victim companies into contracting the Poseidon Group as a security firm.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0033"
+        },
+        {
+            "Name": "PROMETHIUM",
+            "Associated Groups": "StrongPity",
+            "Description": "PROMETHIUM is an activity group focused on espionage that has been active since at least 2012. The group has conducted operations globally with a heavy emphasis on Turkish targets. PROMETHIUM has demonstrated similarity to another activity group called NEODYMIUM due to overlapping victim and campaign characteristics.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0056"
+        },
+        {
+            "Name": "Putter Panda",
+            "Associated Groups": "APT2, MSUpdater",
+            "Description": "Putter Panda is a Chinese threat group that has been attributed to Unit 61486 of the 12th Bureau of the PLA’s 3rd General Staff Department (GSD).",
+            "Tags": ["Military"],
+            "Link": "https://attack.mitre.org/groups/G0024"
+        },
+        {
+            "Name": "Rancor",
+            "Description": "Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0075"
+        },
+        {
+            "Name": "Rocke",
+            "Description": "Rocke is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name Rocke comes from the email address \"rocke@live.cn\" used to create the wallet which held collected cryptocurrency. Researchers have detected overlaps between Rocke and the Iron Cybercrime Group, though this attribution has not been confirmed.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0106"
+        },
+        {
+            "Name": "RTM",
+            "Description": "RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM).",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0048"
+        },
+        {
+            "Name": "Sandworm Team",
+            "Associated Groups": "ELECTRUM, Telebots, IRON VIKING, BlackEnergy (Group), Quedagh, VOODOO BEAR",
+            "Description": "Sandworm Team is a destructive Russian threat group that has been attributed to Russian GRU Unit 74455 by the U.S. Department of Justice and U.K. National Cyber Security Centre. Sandworm Team's most notable attacks include the 2015 and 2016 targeting of Ukrainian electrical companies and 2017's NotPetya attacks. Sandworm Team has been active since at least 2009.",
+            "Tags": ["Energy", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0034"
+        },
+        {
+            "Name": "Scarlet Mimic",
+            "Description": "Scarlet Mimic is a threat group that has targeted minority rights activists. This group has not been directly linked to a government source, but the group's motivations appear to overlap with those of the Chinese government. While there is some overlap between IP addresses used by Scarlet Mimic and Putter Panda, it has not been concluded that the groups are the same.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0029"
+        },
+        {
+            "Name": "Sharpshooter",
+            "Description": "Operation Sharpshooter is the name of a cyber espionage campaign discovered in October 2018 targeting nuclear, defense, energy, and financial companies. Though overlaps between this adversary and Lazarus Group have been noted, definitive Link have not been established.",
+            "Tags": ["Nuclear", "Energy", "Military", "Finance"],
+            "Link": "https://attack.mitre.org/groups/G0104"
+        },
+        {
+            "Name": "Silence",
+            "Description": "Silence is a financially motivated threat actor targeting financial institutions in different countries. The group was first seen in June 2016. Their main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan. They compromised various banking systems, including the Russian Central Bank's Automated Workstation Client, ATMs, and card processing.",
+            "Tags": ["Finance"],
+            "Link": "https://attack.mitre.org/groups/G0091"
+        },
+        {
+            "Name": "SilverTerrier",
+            "Description": "SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.",
+            "Tags": ["IT", "Education", "Manufacturing"],
+            "Link": "https://attack.mitre.org/groups/G0083"
+        },
+        {
+            "Name": "Soft Cell",
+            "Description": "Operation Soft Cell is a group that is reportedly affiliated with China and is likely state-sponsored. The group has operated since at least 2012 and has compromised high-profile Telecommunication networks.",
+            "Tags": ["IT", "Telecommunication"],
+            "Link": "https://attack.mitre.org/groups/G0093"
+        },
+        {
+            "Name": "Sowbug",
+            "Description": "Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0054"
+        },
+        {
+            "Name": "Stealth Falcon",
+            "Description": "Stealth Falcon is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but that has not been confirmed.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0038"
+        },
+        {
+            "Name": "Stolen Pencil",
+            "Description": "Stolen Pencil is a threat group likely originating from DPRK that has been active since at least May 2018. The group appears to have targeted academic institutions, but its motives remain unclear.",
+            "Tags": ["Education"],
+            "Link": "https://attack.mitre.org/groups/G0086"
+        },
+        {
+            "Name": "Strider",
+            "Associated Groups": "ProjectSauron",
+            "Description": "Strider is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0041"
+        },
+        {
+            "Name": "Suckfly",
+            "Description": "Suckfly is a China-based threat group that has been active since at least 2014.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0039"
+        },
+        {
+            "Name": "TA459",
+            "Description": "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0062"
+        },
+        {
+            "Name": "TA505",
+            "Associated Groups": "Hive0065",
+            "Description": "TA505 is a financially motivated threat group that has been active since at least 2014. The group is known for frequently changing malware and driving global trends in criminal malware distribution.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0092"
+        },
+        {
+            "Name": "Taidoor",
+            "Description": "Taidoor is a threat group that has operated since at least 2009 and has primarily targeted the Taiwanese government.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0015"
+        },
+        {
+            "Name": "TEMP.Veles",
+            "Associated Groups": "XENOTIME",
+            "Description": "TEMP.Veles is a Russia-based threat group that has targeted critical infrastructure. The group has been observed utilizing TRITON, a malware framework designed to manipulate industrial safety systems.",
+            "Tags": ["Manufacturing"],
+            "Link": "https://attack.mitre.org/groups/G0088"
+        },
+        {
+            "Name": "The White Company",
+            "Description": "The White Company is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan.",
+            "Tags": ["Government", "Military"],
+            "Link": "https://attack.mitre.org/groups/G0089"
+        },
+        {
+            "Name": "Threat Group-1314",
+            "Associated Groups": "TG-1314",
+            "Description": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure.",
+            "Tags": ["Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0028"
+        },
+        {
+            "Name": "Threat Group-3390",
+            "Associated Groups": "TG-3390, Emissary Panda, BRONZE UNION, APT27, Iron Tiger, LuckyMouse",
+            "Description": "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims. The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, and manufacturing sectors.",
+            "Tags": ["Aerospace", "Military", "Government", "IT", "Energy"],
+            "Link": "https://attack.mitre.org/groups/G0027"
+        },
+        {
+            "Name": "Thrip",
+            "Description": "Thrip is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as \"living off the land\" techniques.",
+            "Tags": ["Aerospace", "Military"],
+            "Link": "https://attack.mitre.org/groups/G0076"
+        },
+        {
+            "Name": "Tropic Trooper",
+            "Associated Groups": "Pirate Panda, KeyBoy",
+            "Description": "Tropic Trooper is an unaffiliated threat group that has led targeted campaigns against targets in Taiwan, the Philippines, and Hong Kong. Tropic Trooper focuses on targeting government, healthcare, transportation, and high-tech industries and has been active since 2011.",
+            "Tags": ["Government", "Medical", "Travel", "IT"],
+            "Link": "https://attack.mitre.org/groups/G0081"
+        },
+        {
+            "Name": "Turla",
+            "Associated Groups": "Waterbug, WhiteBear, VENOMOUS BEAR, Snake, Krypton",
+            "Description": "Turla is a Russian-based threat group that has infected victims in over 45 countries, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies since 2004. Heightened activity was seen in mid-2015. Turla is known for conducting watering hole and spearphishing campaigns and leveraging in-house tools and malware. Turla’s espionage platform is mainly used against Windows machines, but has also been seen used against macOS and Linux machines.",
+            "Tags": ["Military", "Education", "Pharmaceutical", "Government"],
+            "Link": "https://attack.mitre.org/groups/G0010"
+        },
+        {
+            "Name": "Whitefly",
+            "Description": "Whitefly is a cyber espionage group that has been operating since at least 2017. The group has targeted organizations based mostly in Singapore across a wide variety of sectors, and is primarily interested in stealing large amounts of sensitive information. The group has been linked to an attack against Singapore’s largest public health organization, SingHealth.",
+            "Tags": ["Medical", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0107"
+        },
+        {
+            "Name": "Windshift",
+            "Associated Groups": "Bahamut",
+            "Description": "Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.",
+            "Tags": ["Government"],
+            "Link": "https://attack.mitre.org/groups/G0112"
+        },
+        {
+            "Name": "Winnti Group",
+            "Associated Groups": "Blackfly",
+            "Description": "Winnti Group is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. Some reporting suggests a number of other groups, including Axiom, APT17, and Ke3chang, are closely linked to Winnti Group.",
+            "Tags": ["Gaming"],
+            "Link": "https://attack.mitre.org/groups/G0044"
+        },
+        {
+            "Name": "WIRTE",
+            "Description": "WIRTE is a threat group that has been active since at least August 2018. The group focuses on targeting Middle East defense and diplomats.",
+            "Tags": ["Military"],
+            "Link": "https://attack.mitre.org/groups/G0090"
+        },
+        {
+            "Name": "Wizard Spider",
+            "Associated Groups": "UNC1878, TEMP.MixMaster, Grim Spider",
+            "Description": "Wizard Spider is a financially motivated criminal group that has been conducting ransomware campaigns since at least August 2018 against a variety of organizations, ranging from major corporations to hospitals.",
+            "Tags": ["Medical", "Non-government"],
+            "Link": "https://attack.mitre.org/groups/G0102"
+        }
+    ]
+}
