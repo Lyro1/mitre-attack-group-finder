@@ -41,5 +41,5 @@ jobs:
               cd ..
               sudo sshpass -p ${{ secrets.SERVER_PASSWORD }} scp -v -o StrictHostKeyChecking=no -r app.tar.gz ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }}:/var/www/lyro.fr/html/projects/magf
       - name: Uncompress new Files
-        run : sudo sshpass -p ${{ secrets.SERVER_PASSWORD }} -v ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }} 'cd /var/www/lyro.fr/html/projects/magf && tar -xzvf app.tar.gz && rm app.tar.gz && mv mitre-attack-group-finder/* . && rm -rRf mitre-attack-group-finder/'
+        run : sudo sshpass -p ${{ secrets.SERVER_PASSWORD }} -v ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }} 'cd /var/www/lyro.fr/html/projects/magf && tar -xzvf app.tar.gz && rm app.tar.gz && mv MitreAttackGroup/* . && rm -rRf MitreAttackGroup/'
 
